@@ -5,3 +5,5 @@ This repo will contain my review of basic data structures implemented in JS. Thi
 Added stack.js
 
 Added set.js
+
+Added graph.js
