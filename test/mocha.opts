@@ -1,0 +1,4 @@
+app
+--require ./test/commonreq.js
+--recursive
+--bail

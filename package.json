@@ -1,0 +1,24 @@
+{
+  "name": "datastructures-review",
+  "version": "1.0.0",
+  "description": "This repo will contain my review of basic data structures implemented in JS. This is an effort to keep things fresh.",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/istanbul cover ./node_modules/mocha/bin/_mocha",
+    "tdd": "./node_modules/.bin/mocha -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yaoandrew/Data-Structures-Review.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yaoandrew/Data-Structures-Review/issues"
+  },
+  "homepage": "https://github.com/yaoandrew/Data-Structures-Review#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0"
+  }
+}
