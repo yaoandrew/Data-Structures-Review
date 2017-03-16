@@ -45,7 +45,7 @@ Graph.prototype.removeEdge = function(fromNode, toNode){
       this[fromNode].splice(i, 1);
     }
   }
-  for(var i = 0; i < this[toNode].length; i++){
+  for( i = 0; i < this[toNode].length; i++){
     if(this[toNode][i] === fromNode){
       this[toNode].splice(i, 1);
     }

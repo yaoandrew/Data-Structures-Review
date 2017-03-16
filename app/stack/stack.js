@@ -8,7 +8,7 @@ Stack.prototype.push = function(value){
     this.count++;
 };
 Stack.prototype.pop = function(){
-    if(this.count > 0){
+    if (this.count > 0){
       this.count--;
       var temp = this[this.count];
       delete this[this.count];
